@@ -59,7 +59,7 @@ for line in file.readlines():
                         last_num = num_dict[line[n-i-j:n-i]]
         i += 1
     calib_value = int(first_num + last_num)
-    print(first_num, last_num, calib_value)
+    # print(first_num, last_num, calib_value)
     total += calib_value
 
 print("total: ", total)
