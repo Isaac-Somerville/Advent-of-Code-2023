@@ -1,6 +1,6 @@
 file = open("input/day1.txt")
 
-########## PART 1 ###########
+########## PART 1 ############
 
 # total = 0
 # for line in file.readlines():
@@ -22,7 +22,7 @@ file = open("input/day1.txt")
 
 # print("total: ", total)
 
-########## PART 2 ###########
+########## PART 2 ############
 
 num_dict = {
     "one": "1", 
